@@ -1,1 +1,0 @@
-Enllaç per descarregar un arxiu VDI amb un Ubuntu Server 17.10 ja instal.lat per tal de posar-hi en marxa un servidor DHCP i DNS en xarxa interna: https://cloud.elpuig.xeill.net/index.php/s/Vl2blt0AH2sM0FM/download?path=%2F&files=Ubuntu-Server-17.10.vdi
