@@ -1,0 +1,48 @@
+dn: uid=usu1ldap,ou=usuarios,dc=midominio,dc=local 
+objectClass: inetOrgPerson 
+objectClass: posixAccount 
+objectClass: shadowAccount 
+uid: usu1ldap
+sn: Lopez 
+givenName: Juan 
+cn: Juan Lopez 
+displayName: Juan Lopez 
+uidNumber: 3000 
+gidNumber: 10000 
+userPassword: XXX
+gecos: Es muy tonto
+loginShell: /bin/bash 
+homeDirectory: /home/jlopez 
+shadowExpire: -1 
+shadowFlag: 0 
+shadowWarning: 7 
+shadowMin: 8 
+shadowMax: 999999 
+shadowLastChange: 10877 
+mail: juan.lopez@gmail.com
+postalCode: 29000 
+####################LINIA EN BLANC####################
+dn: uid=usu2ldap,ou=usuarios,dc=midominio,dc=local 
+objectClass: inetOrgPerson 
+objectClass: posixAccount 
+objectClass: shadowAccount 
+uid: usu2ldap 
+sn: Perez
+givenName: Perico 
+cn: Pedro Perez
+displayName: Pedro Perez
+uidNumber: 3001
+gidNumber: 10000 
+userPassword: XXX 
+gecos: Es un crack
+loginShell: /bin/bash 
+homeDirectory: /home/pperez
+shadowExpire: -1 
+shadowFlag: 0 
+shadowWarning: 7 
+shadowMin: 8 
+shadowMax: 999999 
+shadowLastChange: 10877 
+mail: pedrito@yahoo.es
+postalCode: 29001 
+
