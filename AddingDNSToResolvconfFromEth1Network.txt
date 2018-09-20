@@ -1,0 +1,17 @@
+Getting DNS dinamically in Centos:
+With this example of file in /etc/systemd/network/eth1.network:
+[Match]
+Name=eth1
+[Network]
+DHCP=no
+Address=192.168.1.123/24
+Gateway=192.168.1.1
+DNS=8.8.8.8
+DNS=8.8.4.4
+
+Running yum install -y systemd-resolver
+systemctl start systemd-resolver
+
+This service get info from /etc/systemd/network/*.network and /etc/systemd/resolved.conf, saving information into memory.
+ 
+other way: do a symlink from /run/systemd/resolve/resolve.con to /etc/resolved.con
