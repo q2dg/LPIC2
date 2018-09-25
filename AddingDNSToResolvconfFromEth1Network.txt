@@ -9,8 +9,8 @@ Gateway=192.168.1.1
 DNS=8.8.8.8
 DNS=8.8.4.4
 
-Running yum install -y systemd-resolver
-systemctl start systemd-resolver
+Running yum install -y systemd-resolved
+systemctl start systemd-resolved
 
 This service get info from /etc/systemd/network/*.network and /etc/systemd/resolved.conf, saving information into memory.
  
