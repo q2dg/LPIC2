@@ -8,7 +8,7 @@ givenName: Juan
 cn: Juan Lopez
 displayName: Juan Lopez
 uidNumber: 3001
-gidNumber: 10000 
+gidNumber: 10000
 userPassword: XXX
 gecos: Es muy tonto
 loginShell: /bin/bash
